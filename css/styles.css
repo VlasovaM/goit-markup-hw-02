@@ -29,13 +29,16 @@ color:var(--titel-text-color);
 }
 .logo {
     color: var(--titel-text-color);
-    font-family: Raleway, sans-serif;
-font-size: 18px;
-    line-height: 21px;
-    text-decoration: none;
 }
 .web-logo {
     color: var(--accent-color);
+        font-family: Raleway, sans-serif;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            text-decoration: none;
     
 }
 /*Site nav*/
@@ -50,25 +53,28 @@ font-size: 18px;
 .nav-link:hover, .nav-link:focus{
     color: var(--hover-blue-color);
 }
-.nav-mail{
+.link {
+    text-decoration: none;
+}
+.studio {
+    letter-spacing: 0.02em;
+}
+.nav {
     color: var(--primary-text-color);
     font-style: normal;
     font-weight: 400;
         font-size: 16px;
         line-height: 24px;
+        letter-spacing: 0.02em;
     
 }
-.nav-mail:hover, .nav-mail:focus{
+.address {
+    font-style: normal;
+}
+.mail:hover, .mail:focus{
 color: var(--hover-blue-color);
 }
-.nav-tel {
-color: var(--primary-text-color);
-font-style: normal;
-text-decoration: none;
-font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-}
+
 
 footer {
     background-color: var(--titel-text-color);
@@ -90,6 +96,9 @@ footer {
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 
 }
 /*Section*/
@@ -97,9 +106,12 @@ footer {
     color: var(--titel-text-color);
     font-weight: 700;
         font-size: 36px;
-        line-height: 40px;
-
+            line-height: 1.11;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
 }
+
 
 /*Advantages*/
 .advantages-list .titel {
@@ -113,6 +125,8 @@ color: var(--titel-text-color);
 .text-advantages {
     font-size: 16px;
         line-height: 24px;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color);
 }
 
 
@@ -126,11 +140,17 @@ color: var(--titel-text-color);
 .titel-team {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .team-profession{
+    color: var(--primary-text-color);
 font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.team-li {
+background-color: var(--white-accent-color);
 }
 
 /*Button*/
@@ -140,6 +160,8 @@ font-size: 16px;
     font-weight: 500;
         font-size: 16px;
         line-height: 24px;
+        font-family: "Roboto", sans-serif;
+        letter-spacing: 0.04em;
 }
 .button{
     color: var(--accent-color);
