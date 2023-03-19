@@ -1,0 +1,125 @@
+/*цвет основного текста (абзацы) #434455  */
+/*вторичный цвет текста #2E2F42 */
+/*белый текст #E7E9FC */
+/*акцентный цвет синий #4D5AE5 */
+/*белый акцент и фон #FFFFFF */
+/*вторичный цвет фона и лого #F4F4FD */
+
+
+
+:root{
+    --primary-text-color:#434455;
+    --titel-text-color: #2E2F42;
+    --white-text-color: #E7E9FC;
+    --accent-color: #4D5AE5;
+    --white-accent-color: #FFFFFF;
+    --second-white-color:#F4F4FD;
+    --hover-blue-color: #404BBF;
+}
+body {
+    color:var(--primary-text-color);
+    background-color: var(--white-accent-color);
+    font-family: Roboto, sans-serif;
+    
+}
+.list {
+list-style: none;
+color:var(--titel-text-color);
+}
+.logo {
+    color: var(--titel-text-color);
+    font-family: Raleway, sans-serif;
+font-size: 18px;
+    line-height: 21px;
+}
+.web-logo {
+    color: var(--accent-color);
+    
+}
+/*Site nav*/
+.nav-link{
+    color: var(--titel-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+.nav-link:hover, .nav-link:focus{
+    color: var(--hover-blue-color);
+}
+.nav-mail{
+    color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    
+}
+.nav-mail:hover, .nav-mail:focus{
+color: var(--hover-blue-color);
+}
+.nav-tel {
+color: var(--primary-text-color);
+font-style: normal;
+text-decoration: none;
+font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+button {
+    cursor: pointer;
+}
+
+/*Hero*/
+.hero-titel {
+    color: var(--white-accent-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+
+}
+/*Section*/
+.section-titel {
+    color: var(--titel-text-color);
+
+}
+
+/*Advantages*/
+.advantages-list .titel {
+color: var(--titel-text-color);
+}
+.titel {
+    
+}
+
+/*Work*/
+
+
+/*Team*/
+
+/*Button*/
+.button.primary {
+    color: var(--white-accent-color);
+    background-color: var(--accent-color);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+}
+.button{
+    color: var(--accent-color);
+    background-color: var(--second-white-color);
+}
+.button:hover, .button:focus {
+    background-color: var(--hover-blue-color);
+}
+
+/*Portfolio*/
+.button-filter {
+    background-color: var(--white-text-color);
+    color: var(--accent-color);
+}
+.button-filter:hover, .button-filter:focus {
+    background-color: var(--hover-blue-color) ;
+    color: var(--white-accent-color);
+}
+
